@@ -994,6 +994,17 @@ export default function Home() {
           <div className="border-t border-slate-800 pt-6 text-xs text-slate-600 text-center">
             © {new Date().getFullYear()} Al Medina Motors · Car Inspection
             Station · 313/317 Oldham Road, Manchester M40 7PS, England
+            <span className="block mt-1">
+              Site by{" "}
+              <a
+                href="https://share.google/dWOmhT6JRQ7kzzaZO"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-slate-400 transition-colors underline underline-offset-2"
+              >
+                Web Developer Manchester
+              </a>
+            </span>
           </div>
         </div>
       </footer>
